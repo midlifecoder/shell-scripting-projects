@@ -10,7 +10,7 @@ echo "AWS Account ID: $aws_account_id"
 
 # Set AWS region and bucket name
 aws_region="us-east-1"
-bucket_name="rjdk-ultimate-bucket"
+bucket_name="rjdk-ultimate-bucket20232023202320232023202320232023202320232023202320232023202320232023202320232023"
 lambda_func_name="s3-lambda-function"
 role_name="s3-lambda-sns"
 email_address="jkealiher@gmail.com"
@@ -104,6 +104,6 @@ aws sns subscribe \
 aws sns publish \
   --topic-arn "$topic_arn" \
   --subject "A new object created in s3 bucket" \
-  --message "DevOps career kickoff"
+  --message "Hello from Abhishek.Veeramalla YouTube channel, Learn DevOps Zero to Hero for Free"
 
 
